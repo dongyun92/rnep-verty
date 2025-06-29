@@ -8,6 +8,7 @@ pydantic-settings==2.1.0
 sqlalchemy==2.0.25
 asyncpg==0.29.0
 alembic==1.13.1
+geoalchemy2==0.14.3
 
 # GIS and spatial data
 geopandas==0.14.2
@@ -30,6 +31,10 @@ aiofiles==23.2.1
 
 # API documentation
 python-jose[cryptography]==3.3.0
+
+# Additional dependencies
+geopy==2.4.1
+geojson-pydantic==1.0.2
 
 # Testing
 pytest==7.4.4
