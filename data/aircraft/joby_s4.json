@@ -1,0 +1,22 @@
+{
+    "id": "JOBY_S4",
+    "name": "Joby S4",
+    "manufacturer": "Joby Aviation",
+    "cruise_speed": 200,
+    "max_speed": 322,
+    "climb_rate": 500,
+    "descent_rate": 300,
+    "max_altitude": 3000,
+    "range": 241,
+    "noise_profile": {
+        "takeoff": 65,
+        "cruise": 55,
+        "landing": 62
+    },
+    "risk_parameters": {
+        "mtow": 2177,
+        "rotor_diameter": 10,
+        "failure_rate": 0.00001,
+        "glide_ratio": 12
+    }
+}
